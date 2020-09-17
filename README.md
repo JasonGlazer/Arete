@@ -34,7 +34,14 @@ The final building design shall meet the Energy Target.
 
 A building energy model the corresponds with the final design in either native simulation program files or in files 
 based on an accepted industry schema shall be provided to one or more ClearingHouse Providers. If many identical or nearly 
-identical buildings are based on the same design, a single building energy model shall be provided.  
+identical buildings are based on the same design, a single building energy model shall be provided. Final energy building
+models shall clearly identify the type of space for each room or group of adjacent rooms in the building model. The final
+building energy model shall be complete enough that the Clearinghouse Providers can run simulations and recreate the 
+exact energy predicted to be used by the building. For each type of space in the building, the total energy for each utility 
+as well as the area, volume, and the number of occupants, and other indices of usage for the type of space shall be described
+in the building energy model and in a file in the format of the Schema for Final Building Energy Model Results.
+
+
 
 
 
@@ -42,7 +49,8 @@ identical buildings are based on the same design, a single building energy model
 
 Computing the Energy Target
 ---------------------------
-The Energy Target for a specific building is based on the 
+The Energy Target for a specific building is based on the population of the buildings designed under the standard in 
+recent years. The Energy Target shall be based on the sum of the energy usage for each type of space within the building.
 
 
 Requirements for Clearinghouse Providers
@@ -55,7 +63,7 @@ Building energy models that describe common layouts
 for the building will be accepted by the measure providers and provided publicly to other measure providers in 
 either native simulation files or industry schemas. 
 
-The clearinghouse will 
+The clearinghouse will accept final building energy design models 
 
 
 
@@ -92,6 +100,13 @@ of the first day of the first billing cycle.
 
 
 Schema for Design Requirements
+------------------------------
+
+
+Schema for Final Building Energy Model Results
+---------------------------------------------
+
+Schema for Building Inspectors
 ------------------------------
 
 
